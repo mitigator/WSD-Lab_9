@@ -1,0 +1,32 @@
+
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .search-button input{
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .search-button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

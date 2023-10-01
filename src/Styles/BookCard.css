@@ -1,0 +1,55 @@
+.book-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.book-card h3 {
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+
+.book-card p {
+  margin: 5px 0;
+}
+
+.book-card form {
+  margin-top: 10px;
+}
+
+.book-card label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.book-card textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.book-card button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.book-card button:hover {
+  background-color: #0056b3;
+}
+
+/* You can add more styling as needed */
